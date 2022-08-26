@@ -1,0 +1,32 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"name":"raju","accuracy":50,"phone_number":"9881444160","address":"sangli","language":"german","website":"http://google.com","location":{"lat":345.666,"lng":456.23},"types":["test one","test two"]}
+HTTP/1.1 200 OK
+Date: Thu, 28 Jul 2022 06:01:17 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "dbc8afe41709078ea9db23bd0ce86be4",
+    "scope": "APP",
+    "reference": "c334b7e631c32a1d3afa7f808c458807c334b7e631c32a1d3afa7f808c458807",
+    "id": "c334b7e631c32a1d3afa7f808c458807"
+}

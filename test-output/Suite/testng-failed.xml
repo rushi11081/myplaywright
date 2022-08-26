@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="author" value="dh"/>
+  <parameter name="isbn" value="004"/>
+  <parameter name="name" value="maven4"/>
+  <parameter name="aisle" value="0m47"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="library.Libapibyparameter">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- library.Libapibyparameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

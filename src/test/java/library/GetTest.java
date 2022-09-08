@@ -76,7 +76,7 @@ public class GetTest {
 	public void Test04_get()
 	{
 		
-	
+	System.out.println("Rushikesh");
 		
 	 RestAssured.baseURI="http://216.10.245.166";
 		   

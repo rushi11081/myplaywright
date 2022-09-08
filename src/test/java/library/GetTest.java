@@ -72,7 +72,31 @@ public class GetTest {
 		 
 		 
 	}
+	@Test
+	public void Test04_get()
+	{
+		
 	
+		
+	 RestAssured.baseURI="http://216.10.245.166";
+		   
+			
+		 RequestSpecification httprequest1=RestAssured.given();
+	
+		 Response res1=httprequest1.request(Method.GET,"/Library/GetBook.php?ID=009108");
+	
+		 
+		 String getresponse1=res1.getBody().asString();
+				
+		 System.out.println("The Response is  "+ getresponse1);
+		 
+		 int statuscode=res1.getStatusCode();
+		 
+		 Assert.assertEquals(statuscode, 200);
+	
+		 
+		 
+	}
 	
 	
 	
